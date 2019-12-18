@@ -1,4 +1,4 @@
-{  
+{
   "name": "@vanillawc/wc-style-guide",
   "version": "1.0.0",
   "license": "MIT",
@@ -21,5 +21,7 @@
     "postversion": "git push --follow-tags"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "semistandard": "^14.2.0"
+  }
 }
