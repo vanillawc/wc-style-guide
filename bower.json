@@ -1,0 +1,14 @@
+{
+  "name": "@vanillawc/wc-style-guide",
+  "authors": [
+    "Evan Plaice <evanplaice@gmail.com> (http://evanplaice.com/)"
+  ],
+  "keywords": [
+    "web-component",
+    "vanilla",
+    "design",
+    "style-guide"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
