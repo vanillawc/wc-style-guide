@@ -1,24 +1,24 @@
 /* eslint no-undef: 0 */
 export class WCStyleGuide extends HTMLElement {
   static get observedAttributes () {
-    return ['stylesheet'];
+    return ['stylesheet']
   }
 
-  get stylesheet () { return this.getAttribute('stylesheet'); }
+  get stylesheet () { return this.getAttribute('stylesheet') }
   set stylesheet (value) {
-    this.setAttribute('stylesheet', value);
-    this.setStylesheet(value);
+    this.setAttribute('stylesheet', value)
+    this.setStylesheet(value)
   }
 
   attributeChangedCallback (name, oldValue, newValue) {
     if (oldValue !== newValue) {
-      this[name] = newValue;
+      this[name] = newValue
     }
   }
 
   constructor () {
-    super();
-    this.__stylesheet = null;
+    super()
+    this.__stylesheet = null
   }
 
   connectedCallback () {}
@@ -28,4 +28,4 @@ export class WCStyleGuide extends HTMLElement {
   }
 }
 
-customElements.define('wc-style-guide', WCStyleGuide);
+customElements.define('wc-style-guide', WCStyleGuide)
